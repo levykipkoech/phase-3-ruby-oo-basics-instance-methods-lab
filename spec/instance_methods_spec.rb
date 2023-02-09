@@ -65,7 +65,7 @@ describe 'Person' do
       expect($stdout).to receive(:puts).with("The Person is walking")
 
       ada = Person.new
-      ada.walk
+      ada.walk 
     end
   end
 end
